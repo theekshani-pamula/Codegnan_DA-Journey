@@ -39,11 +39,7 @@ syntax --> import(keyword) module_name
 import math
 print(math.sqrt(29))'''
 
-import random
-print(randit(11,29)):
-    for i in randit:
-        guessing_val = int(input("Enter guessing_val:")
-                           if 
+
 
 
 
