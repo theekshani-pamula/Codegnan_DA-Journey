@@ -39,7 +39,25 @@ syntax --> import(keyword) module_name
 import math
 print(math.sqrt(29))'''
 
+import random
 
+def game():
+    num = random.randint(1, 10)
+    chances = 3
+
+    while chances > 0:
+        guess = int(input("Guess number (1-10): "))
+
+        if guess == num:
+            print("You win ")
+            return
+        else:
+            chances -= 1
+            print("Wrong! Left:", chances)
+
+    print("You lost  Number was:", num)
+
+game()
 
 
 
