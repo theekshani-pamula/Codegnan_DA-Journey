@@ -54,6 +54,72 @@ else:
 #program for perfect number
 '''
 
+'''List Methods:
+
+append():-
+--------
+nums = [8, 10, 29]
+nums.append(39)
+print(nums)
+
+extend():-
+-------
+nums = [29, 11]
+nums.extend([3, 4, 5])
+print(nums)
+
+insert():-
+-------
+nums = [2, 5, 4]
+nums.insert(2, 3)
+print(nums)
+
+remove():-
+--------
+nums = [11, 10, 29, 3]
+nums.remove(3)
+print(nums)
+
+pop():-
+----
+nums = [10, 20, 30]
+nums.pop(1)
+print(nums)
+
+clear():-
+-----
+nums = [23, 29, 32]
+nums.clear()
+print(nums)
+
+index():-
+-----
+nums = [10, 20, 30]
+print(nums.index(20))
+
+count():-
+-----
+nums = [1, 2, 2, 3, 2]
+print(nums.count(2))
+
+sort():-
+-----
+nums = [25563, 716753, 93236, 13512]
+nums.sort()
+print(nums)
+
+reverse():-
+-------
+nums = [11, 23, 35]
+nums.reverse()
+print(nums)
+
+copy():-
+-----
+nums = [1, 2, 3]
+new_list = nums.copy()
+print(new_list)'''
+
 
 
 
