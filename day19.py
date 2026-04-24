@@ -40,3 +40,32 @@ speech_text(response)
 engine.runAndWait()'''
 
 
+
+
+
+import pyttsx3
+engine=pyttsx3.init()
+def speech_text(text):
+    print(text)
+    engine.say(text)
+def Swiggy_help():
+    print("Welcome to Swiggy Help Center")
+    engine.say("Welcome to Swiggy Help Center")
+    user_choice=int(input("Enter:\n1.Order not delivered\n2.Wrong order\n3.Payment issue\n4.Cancel order\n5.Exit\n"))
+    if user_choice==1:
+        response="Sorry, your order is delayed. Please wait or contact delivery partner."
+    elif user_choice==2:
+        response="You received a wrong order. You can request a refund or replacement."
+    elif user_choice==3:
+        response="If payment was deducted, it will be refunded in 3 to 5 days."
+    elif user_choice==4:
+        response="Your cancellation request is being processed."
+    elif user_choice==5:
+        response="Thank you for using Swiggy Help Center"
+    else:
+        response="Invalid choice"
+    speech_text(response)
+    engine.runAndWait()
+Swiggy_help()
+
+
