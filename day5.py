@@ -3,18 +3,18 @@ Strings --> String is a collection of characters , which represented by "" or ''
 indexing (numbering the string) string can also allow negative indexing and also slicing (cutting the string)(ex:print(any[7:15])).this is also immutable,
 where i could not able to modify on that particular vari...'''
 
-'''#any = 'python programming'
-#print(any[20])
-#so = any.replace("python","Java")
-#print(any)
-#print(so)'''
+'''any = 'python programming'
+print(any[20])
+so = any.replace("python","Java")
+print(any)
+print(so)'''
 '''
 
 a_day = 'i am Theekshani from visakhapatnam , i have completed my btech  in the year 2025 in electronics and communiction engineering'
 print(len(a_day))
 len()-->it is used to get the char present in the string
-#print(f"My name is {a_day[-10:-2]}")(negative indexing)
-#print(f"My name is {a_day[2:20]}")(indexing)
+print(f"My name is {a_day[-10:-2]}")(negative indexing)
+print(f"My name is {a_day[2:20]}")(indexing)
 
 #a_day = "Theeku"
 #print(a_day[::-1])(Reversing a string)
